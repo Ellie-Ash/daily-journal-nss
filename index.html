@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Daily Journal </title>
+    <link rel="stylesheet" type="text/css" href="styles/journal.css">
+    <!--Emoji-->
+    <meta charset="UTF-8">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <h1> Daily Journal </h1>
+    <form action="enter-info" id="content">
+        <fieldset> 
+            <label for="date"> Date: </label>
+            <input type="date" name="today" id="date">
+        </fieldset>
+        <fieldset>
+            <label for="concepts"> Concepts Covered: </label>
+            <input type="text" name="covered" id="concepts">
+        </fieldset>
+        <fieldset>
+            <label for="coffee"> Cups of Coffee: </label>
+            <select coffee="coffee">
+                <option value="1cup"> 1 </option>
+                <option value="2cup"> 2 </option>
+                <option value="3cup"> 3 </option>
+                <option value="4cup"> 4+ </option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <textarea name="entry" rows="20" cols="40"> ... </textarea>
+        </fieldset>
+        <fieldset>
+            <label for="mood"> Mood: </label>
+            <select emotions="mood">
+                <option value="great"> 😀 </option>
+                <option value="good"> 😌 </option>
+                <option value="okay"> 😶 </option>
+                <option value="tired"> 😴 </option>
+                <option value="bad"> 😓 </option>
+                <option value="terrible"> 😤 </option>
+            </select>
+        </fieldset>
+    </div>
+    </form>
+    <button type="button" onclick="alert('Your journal entry was logged successfully!')"> Record Journal Entry </button>
+</body>
+</html>
