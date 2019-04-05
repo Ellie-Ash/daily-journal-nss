@@ -9,7 +9,8 @@ div {
 
 h1 {
     font-family: 'Press Start 2P', cursive;
-    color: rgb(187, 157, 212);
+    color: rgb(204, 170, 231);
+    background-color: rgb(173, 250, 173);
 }
 
 #content {
