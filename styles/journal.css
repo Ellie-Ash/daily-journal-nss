@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 226, 250);
+  background-image: linear-gradient(to bottom right, rgb(255, 236, 253), rgb(244, 219, 255));
 }
 
 div {
@@ -14,7 +14,7 @@ h1 {
     text-shadow: 3px 3px rgb(236, 147, 224);
 }
 
-#content {
+#maincontent {
     background-color: white;
     font-family: monospace;
     margin: 15px 15px 15px 15px;
