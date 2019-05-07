@@ -60,9 +60,11 @@ const outputSection = document.getElementById("goingToHTML");
 /* invoking the render function */
 /* renderJournalEntries(allEntries);
 */
-const apiBaseURL = "http://127.0.0.1:8088/";
 
-/* creating entry using POST */
+/* doesnt work
+const apiBaseURL = "http://localhost:8088/";
+*/
+/* creating entry using POST 
 const createEntry = (journalObj) => {
     fetch(`${apiBaseURL}`,
     {
@@ -87,3 +89,16 @@ var myEntry  = {
 
 
 createEntry(myEntry);
+*/
+
+/*
+    Main application logic that uses the functions and objects
+    defined in the other JavaScript files.
+
+    Change the fake variable names below to what they should be
+    to get the data and display it.
+*/
+
+/* doesnt work
+createEntry.journalObj().then(myNewEntry);
+*/
